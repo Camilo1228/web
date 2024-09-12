@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cafes</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="section" >
+        <div class="letras">
+    <div class="container">
+        <h1>Formulario de super Cafe</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="1" required>
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero" required>
+                <option value="masculino">Masculino</option required>
+                <option value="femenino">Femenino</option required> 
+                <option value="otro">Otro</option required>
+            </select>
+
+            <label>Cafes q conoces:</label>
+            <div >
+                <input type="checkbox" id="Capuchino" name="cafes" value="Capuchino" required>
+                <label for="capuchino">Capuchino</label required>
+                <input type="checkbox" id="Cafe expresso" name="cafes" value="Cafe expresso">
+                <label for="Cafe expresso">Cafe expresso</label>
+                </div>
+
+            <label for="frecuencia">Cuanto cafe tomas por dia :</label>
+            <input type="number" id="frecuencia" name="frecuencia" min="0" max="50" required>
+
+            <label for="manejo">Has hecho alguno?</label>
+            <textarea id="manejo" name="manejo"></textarea>    
+
+            <A  class="boton-1"   class="enviar"  href="index.html">ENVIAR</A>
+        </form>
+    </div required>
+</div>
+</section>
+</body>
+</html>
